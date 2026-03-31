@@ -2,6 +2,7 @@ import Navbar from "./component/Navbar";
 import Banner from "./component/Banner";
 import Stats from "./component/Stats";
 import CreateAccount from "./component/CreateAccount";
+import Pricing from "./component/Pricing"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
        <Banner></Banner>
        <Stats></Stats>
        <CreateAccount></CreateAccount>
+       <Pricing></Pricing>
     </>
   )
 }
