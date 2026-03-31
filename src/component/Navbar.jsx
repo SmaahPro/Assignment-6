@@ -19,7 +19,7 @@ const Navbar = () => {
                 <button className="bg-violet-600 text-white px-4 py-2 rounded hover:bg-red-500 transition">Get Started</button>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Navbar;

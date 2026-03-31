@@ -27,7 +27,7 @@ const Banner = () => {
             <img src={BannerImg} className="w-full md:w-auto max-w-md"/>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default Banner;

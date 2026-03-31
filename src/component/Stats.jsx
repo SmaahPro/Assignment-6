@@ -22,7 +22,7 @@ const Stats = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Stats;

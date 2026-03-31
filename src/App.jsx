@@ -1,7 +1,7 @@
 import Navbar from "./component/Navbar";
 import Banner from "./component/Banner";
 import Stats from "./component/Stats";
-
+import CreateAccount from "./component/CreateAccount";
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
        <Navbar></Navbar>
        <Banner></Banner>
        <Stats></Stats>
+       <CreateAccount></CreateAccount>
     </>
   )
 }
