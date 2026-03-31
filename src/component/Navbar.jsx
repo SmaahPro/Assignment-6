@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = ({ cartCount }) => {
   return (
-    <div className="flex justify-between items-center px-50 py-7 shadow font-[Martian_Mono]">
+    <div className="flex justify-between items-center px-50 py-7 shadow font-[Martian_Mono] sticky top-0 bg-white z-50">
 
       <h1 className="text-3xl font-bold">DigiTools</h1>
 
