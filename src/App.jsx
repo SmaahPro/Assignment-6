@@ -4,6 +4,7 @@ import Stats from "./component/Stats";
 import CreateAccount from "./component/CreateAccount";
 import Pricing from "./component/Pricing"
 import Workflow from "./component/Workflow"
+import Footer from "./component/Footer"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
        <CreateAccount></CreateAccount>
        <Pricing></Pricing>
        <Workflow></Workflow>
+       <Footer></Footer>
     </>
   )
 }
