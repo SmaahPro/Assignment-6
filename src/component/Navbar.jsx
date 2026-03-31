@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <div className="flex justify-between items-center px-50 py-7 shadow font font-[Martian_Mono] gap-20">
+        <div className="flex justify-between items-center px-50 py-7 shadow font-[Martian_Mono] gap-20">
             <div> 
                 <h1 className="text-3xl font-bold">DigiTools</h1>
             </div>
