@@ -14,9 +14,7 @@ const Navbar = () => {
             </div>
         
             <div className="text-sm flex justify-between items-center gap-7">
-                <a href="#">
-                    <img src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" className="w-6 h-6 hover:scale-125 duration-300 transition"/>
-                </a>
+                <a href="#"> <img src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" className="w-6 h-6 hover:scale-125 duration-300 transition"/> </a>
                 <a href="#" className="hover:text-red-500">Login</a>
                 <button className="bg-violet-600 text-white px-4 py-2 rounded hover:bg-red-500 transition">Get Started</button>
             </div>
