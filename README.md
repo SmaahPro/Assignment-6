@@ -8,14 +8,14 @@ A web application to explore, buy, and manage premium digital tools efficiently.
 
 ## ⚙️ Technologies Used
 
-React.js               – Component-based UI design
-Tailwind CSS & DaisyUI – Styling & responsive layouts
-JavaScript (ES6+)      – App functionality and logic
-JSON                   – Product data management
+- React.js               – Component-based UI design
+- Tailwind CSS & DaisyUI – Styling & responsive layouts
+- JavaScript (ES6+)      – App functionality and logic
+- JSON                   – Product data management
 
 
 ## ✨ Features
 
-Interactive Product Catalog – Browse premium tools with details, pricing, features, and tags.
-Advanced Cart Functionality – Add/remove products, view total, and checkout with real-time toastify notifications.
-Fully Responsive Design     – Optimized for mobile, tablet, and desktop, maintaining usability and aesthetics.
+- Interactive Product Catalog – Browse premium tools with details, pricing, features, and tags.
+- Advanced Cart Functionality – Add/remove products, view total, and checkout with real-time toastify notifications.
+- Fully Responsive Design     – Optimized for mobile, tablet, and desktop, maintaining usability and aesthetics.
