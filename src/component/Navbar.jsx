@@ -26,9 +26,12 @@ const Navbar = ({ cartCount }) => {
             className="w-5 h-5 md:w-6 md:h-6 hover:scale-125 duration-300 transition"
             alt="Cart Icon"
           />
-          <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-2 rounded-full">
-            {cartCount}
-          </span>
+          
+          {cartCount > 0 && (
+            <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] md:text-xs px-1.5 md:px-2 py-0.5 rounded-full animate-bounce">
+              {cartCount}
+            </span>
+          )}
         </div>
 
         <a href="#" className="hidden lg:block hover:text-red-500">
