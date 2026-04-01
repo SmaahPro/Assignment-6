@@ -1,16 +1,21 @@
-# React + Vite
+🚀 DigiTools – Premium Digital Tools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+📖 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A web application to explore, buy, and manage premium digital tools efficiently. Designed with React and Tailwind CSS, it provides a smooth, responsive experience across devices with interactive cart functionality and real-time alerts.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚙️ Technologies Used
 
-## Expanding the ESLint configuration
+React.js               – Component-based UI design
+Tailwind CSS & DaisyUI – Styling & responsive layouts
+JavaScript (ES6+)      – App functionality and logic
+JSON                   – Product data management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+✨ Features
+
+Interactive Product Catalog – Browse premium tools with details, pricing, features, and tags.
+Advanced Cart Functionality – Add/remove products, view total, and checkout with real-time toastify notifications.
+Fully Responsive Design     – Optimized for mobile, tablet, and desktop, maintaining usability and aesthetics.
