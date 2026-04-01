@@ -68,30 +68,25 @@ const Pricing = () => {
               : "bg-white"
             }`}>
 
-            {/* Most popular badge */}
             {plan.popular && (
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-yellow-300 text-orange-700 text-[10px] md:text-xs px-4 py-1 rounded-full font-bold">
                 Most Popular
               </div>
             )}
 
-            {/* Plan name */}
             <h3 className="text-lg md:text-xl font-bold">
               {plan.name}
             </h3>
 
-            {/* Small description */}
             <p className="text-[10px] md:text-xs opacity-80">
               {plan.desc}
             </p>
 
-            {/* Price */}
             <div className="text-3xl md:text-4xl font-bold">
               {plan.price}
               <span className="text-xs md:text-sm font-normal">/month </span>
             </div>
 
-            {/* Features */}
             <div className="flex flex-col gap-2">
               {plan.features.map((item, index) => (
                 <div
@@ -103,12 +98,11 @@ const Pricing = () => {
               ))}
             </div>
 
-            {/* Button */}
             <button
-              className={`mt-4 py-2.5 md:py-2 rounded-xl text-[10px] md:text-xs font-semibold transition
+              className={`mt-4 py-2.5 md:py-2 rounded-xl text-[10px] md:text-xs font-semibold transition-all duration-300 cursor-pointer active:scale-95 z-20
               ${plan.popular
-                ? "bg-white text-black hover:bg-gray-200"
-                : "bg-violet-600 text-white hover:bg-violet-700"
+                ? "bg-white text-black hover:bg-gray-200 hover:shadow-lg"
+                : "bg-violet-600 text-white hover:bg-violet-700 hover:shadow-lg"
               }`}>
               {plan.button}
             </button>
